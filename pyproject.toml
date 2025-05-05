@@ -1,0 +1,14 @@
+[project]
+name = "my-python-package"
+version = "0.1.0"
+description = "Testing uv for building and publishing private python packages"
+readme = "README.md"
+authors = [
+    { name = "taniomi", email = "131834608+taniomi@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
