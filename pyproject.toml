@@ -1,6 +1,6 @@
 [project]
 name = "my-python-package-taniomi"
-version = "0.1.0"
+version = "0.1.1"
 description = "Testing uv for building and publishing private python packages"
 readme = "README.md"
 authors = [
