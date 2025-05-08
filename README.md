@@ -26,3 +26,15 @@ uv add pandas
 ```bash
 uv build
 ```
+
+5. Install CLI tool twine
+
+```bash
+uv tool install twine
+```
+
+6. Publish the package to TestPyPI with twine
+
+```bash
+uvx twine upload -r testpypi dist/* --config-file ~/.pypirc
+```
